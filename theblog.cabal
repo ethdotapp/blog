@@ -1,0 +1,20 @@
+name:                theblog
+version:             0.1.0.0
+synopsis:            eth.app
+description:         ETH Apps
+homepage:            http://eth.app
+license:             BSD3
+license-file:        LICENSE
+author:              Zhenchao Li
+maintainer:          leezhenchao@gmail.com
+copyright:           2014 Zhenchao Li
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable theblog
+  main-is: theblog.hs
+  build-depends: base       >= 4.5.0.0
+               , pandoc     >= 1.15.0.6
+               , hakyll     >= 4.2.2.0
+               , old-locale >= 1.0.0.4
+               , time       >= 1.4
